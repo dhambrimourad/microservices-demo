@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dhambrimourad/spring-cloud-config-repository.git
+          default-label: main
+          username: dhambrimourad
+          password: '{cipher}34601fc823b818458799cad4f53eee1932d8e23adc137787de03c60b2a8c2fffecd1ba453684572d210697fa1ff9f7effd0e2a061e6a9ce3d861376e7eaa927e'
+          clone-on-start: true
+    fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: '{cipher}42b40c22714beec737c3734f50f1501b1ed167b963f58493490244ae9557f61ae6b0ca39abba2a07bee685d1cb339c96'
