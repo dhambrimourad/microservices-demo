@@ -19,3 +19,11 @@ user-config:
   username: test
   password: '{cipher}37490783d10949facb96e8c9969e4192d3b47a456f227df8053eac849d5af741'
   roles: USER
+
+spring-doc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+security:
+  paths-to-ignore: /api-docs
