@@ -1,0 +1,24 @@
+2022-02-02 01:41:30 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-02 01:41:31 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2022-02-02 01:41:32 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-service,config-client, profiles=[reactive_elastic_query], label=null, version=f70f01dd58946ef3f50dc78b7d95c1a1beb66f50, state=null
+2022-02-02 01:41:32 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-02 01:41:32 [main] INFO  c.m.d.r.e.q.s.ReactiveElasticQueryServiceApplication - The following profiles are active: reactive_elastic_query
+2022-02-02 01:41:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-02-02 01:41:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 198ms. Found 0 Elasticsearch repository interfaces.
+2022-02-02 01:41:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-02-02 01:41:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 1 Reactive Elasticsearch repository interfaces.
+2022-02-02 01:41:33 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d39f8dcc-aa69-3315-8955-73ec0ec47085
+2022-02-02 01:41:34 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 01:41:34 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 01:41:34 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 01:41:34 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 01:41:34 [reactor-http-epoll-1] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2022-02-02 01:41:34 [reactor-http-epoll-1] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.6.2
+2022-02-02 01:41:34 [reactor-http-epoll-1] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2022-02-02 01:41:34 [reactor-http-epoll-1] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.6.2 - 7.9.1
+2022-02-02 01:41:34 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 585166d8-5c1c-474b-8790-f97d41e2bb50
+
+2022-02-02 01:41:35 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8183
+2022-02-02 01:41:35 [main] INFO  c.m.d.r.e.q.s.ReactiveElasticQueryServiceApplication - Started ReactiveElasticQueryServiceApplication in 5.4 seconds (JVM running for 6.15)

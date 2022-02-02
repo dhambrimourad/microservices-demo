@@ -1,0 +1,14 @@
+2022-02-02 01:41:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-02 01:41:30 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2022-02-02 01:41:30 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=f70f01dd58946ef3f50dc78b7d95c1a1beb66f50, state=null
+2022-02-02 01:41:30 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-02 01:41:30 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-02 01:41:31 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-02 01:41:32 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 64a0a1df-fdcd-4aec-89cb-e2b099a16253
+
+2022-02-02 01:41:33 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-02 01:41:33 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 4.225 seconds (JVM running for 4.858)
+2022-02-02 01:48:01 [reactor-http-epoll-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-02 01:48:01 [reactor-http-epoll-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka

@@ -1,8 +1,8 @@
 package com.microservices.demo.elastic.query.service.api;
 
 import com.microservices.demo.elastic.query.service.business.ElasticQueryService;
-import com.microservices.demo.elastic.query.service.model.ElasticQueryServiceRequestModel;
-import com.microservices.demo.elastic.query.service.model.ElasticQueryServiceResponseModel;
+import com.microservices.demo.elastic.query.service.common.model.ElasticQueryServiceRequestModel;
+import com.microservices.demo.elastic.query.service.common.model.ElasticQueryServiceResponseModel;
 import com.microservices.demo.elastic.query.service.model.ElasticQueryServiceResponseModelV2;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -11,6 +11,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -30,6 +31,9 @@ public class ElasticDocumentController {
   private static final Logger LOG = LoggerFactory.getLogger(ElasticDocumentController.class);
 
   private final ElasticQueryService elasticQueryService;
+
+  @Value("${server.port}")
+  private String port;
 
   public ElasticDocumentController(ElasticQueryService queryService) {
     this.elasticQueryService = queryService;
@@ -101,7 +105,7 @@ public class ElasticDocumentController {
   public @ResponseBody ResponseEntity<List<ElasticQueryServiceResponseModel>>
   getDocumentsByText(@RequestBody @Valid ElasticQueryServiceRequestModel requestModel) {
     List<ElasticQueryServiceResponseModel> response = elasticQueryService.getDocumentsByText(requestModel.getText());
-    LOG.info("Elasticsearch returned {} documents!", response.size());
+    LOG.info("Elasticsearch returned {} documents on port {}!", response.size(), port);
     return ResponseEntity.ok(response);
   }
 
