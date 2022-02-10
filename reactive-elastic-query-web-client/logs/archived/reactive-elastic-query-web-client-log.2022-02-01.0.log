@@ -1,0 +1,569 @@
+2022-02-01 10:23:05 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 10:23:06 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 10:23:07 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 10:23:07 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 10:23:07 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 10:23:07 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 10:23:08 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0e6b9727-2f31-4518-b0ff-d7c3743f7dff
+
+2022-02-01 10:23:10 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 10:23:11 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.072 seconds (JVM running for 7.556)
+2022-02-01 10:23:55 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:23:55 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 10:23:59 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:23:59 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 10:27:45 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:27:45 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 10:28:11 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 10:28:12 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 10:28:13 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 10:28:13 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 10:28:13 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 10:28:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 10:28:14 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ff951bb3-8555-401b-8a64-554bcc548bbb
+
+2022-02-01 10:28:16 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 10:28:17 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.251 seconds (JVM running for 8.357)
+2022-02-01 10:33:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 10:33:38 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 10:33:39 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 10:33:39 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 10:33:39 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 10:33:40 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 10:33:41 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 45e8ae0a-1700-4563-bd92-d1a8f8b73d4e
+
+2022-02-01 10:33:43 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 10:33:44 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.489 seconds (JVM running for 8.097)
+2022-02-01 10:43:01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 10:43:02 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 10:43:03 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 10:43:03 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 10:43:03 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 10:43:04 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 10:43:05 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 45686906-6eeb-46cd-a681-35f9dc22d778
+
+2022-02-01 10:43:07 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 10:43:08 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.473 seconds (JVM running for 8.017)
+2022-02-01 10:43:21 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:43:21 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 10:43:25 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:43:25 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 10:43:38 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:43:38 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 10:43:43 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:43:43 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 10:45:07 [reactor-http-nio-2] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+org.springframework.web.bind.support.WebExchangeBindException: Validation failed for argument at index 0 in method: public java.lang.String com.microservices.demo.reactive.elastic.query.web.client.api.QueryController.queryByText(com.microservices.demo.elastic.query.web.client.common.model.ElasticQueryWebClientRequestModel,org.springframework.ui.Model), with 1 error(s): [Field error in object 'elasticQueryWebClientRequestModel' on field 'text': rejected value []; codes [NotEmpty.elasticQueryWebClientRequestModel.text,NotEmpty.text,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [elasticQueryWebClientRequestModel.text,text]; arguments []; default message [text]]; default message [ne doit pas être vide]] 
+	at org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolver.lambda$null$3(ModelAttributeMethodArgumentResolver.java:142)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:135)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.ignoreDone(MonoIgnoreThen.java:190)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreInner.onComplete(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:81)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1783)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.signalCached(MonoCacheTime.java:320)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.onNext(MonoCacheTime.java:337)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:96)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:152)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:441)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:247)
+	at reactor.netty.channel.FluxReceive.lambda$request$1(FluxReceive.java:135)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-02-01 10:45:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 10:45:58 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 10:45:59 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 10:45:59 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 10:45:59 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 10:45:59 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 10:46:00 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8fcc1616-ad7f-4b1e-81b0-3bc9cbaea09a
+
+2022-02-01 10:46:02 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 10:46:03 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.315 seconds (JVM running for 7.933)
+2022-02-01 10:46:27 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Querying with text kafka
+2022-02-01 10:46:35 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:46:40 [reactor-http-nio-2] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+java.lang.IllegalStateException: block()/blockFirst()/blockLast() are blocking, which is not supported in thread reactor-http-nio-2
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:83)
+	at reactor.core.publisher.Mono.block(Mono.java:1680)
+	at com.microservices.demo.reactive.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.test(TwitterElasticQueryWebClient.java:53)
+	at com.microservices.demo.reactive.elastic.query.web.client.api.QueryController.test(QueryController.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:147)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:173)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:92)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:147)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.ignoreDone(MonoIgnoreThen.java:190)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreInner.onComplete(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:81)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1783)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.signalCached(MonoCacheTime.java:320)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.onNext(MonoCacheTime.java:337)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:96)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:152)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:441)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:247)
+	at reactor.netty.channel.FluxReceive.lambda$request$1(FluxReceive.java:135)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-02-01 10:46:59 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Querying with text kafka
+2022-02-01 10:46:59 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:46:59 [reactor-http-nio-2] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+java.lang.IllegalStateException: block()/blockFirst()/blockLast() are blocking, which is not supported in thread reactor-http-nio-2
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:83)
+	at reactor.core.publisher.Mono.block(Mono.java:1680)
+	at com.microservices.demo.reactive.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.test(TwitterElasticQueryWebClient.java:53)
+	at com.microservices.demo.reactive.elastic.query.web.client.api.QueryController.test(QueryController.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:147)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:173)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:92)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:147)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.ignoreDone(MonoIgnoreThen.java:190)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreInner.onComplete(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:81)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1783)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.signalCached(MonoCacheTime.java:320)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.onNext(MonoCacheTime.java:337)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:96)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:152)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:441)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:247)
+	at reactor.netty.channel.FluxReceive.lambda$request$1(FluxReceive.java:135)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-02-01 10:47:03 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Querying with text kafka
+2022-02-01 10:47:03 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:47:03 [reactor-http-nio-2] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+java.lang.IllegalStateException: block()/blockFirst()/blockLast() are blocking, which is not supported in thread reactor-http-nio-2
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:83)
+	at reactor.core.publisher.Mono.block(Mono.java:1680)
+	at com.microservices.demo.reactive.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.test(TwitterElasticQueryWebClient.java:53)
+	at com.microservices.demo.reactive.elastic.query.web.client.api.QueryController.test(QueryController.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:147)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:173)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:92)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:147)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.ignoreDone(MonoIgnoreThen.java:190)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreInner.onComplete(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:81)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1783)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.signalCached(MonoCacheTime.java:320)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.onNext(MonoCacheTime.java:337)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:96)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:152)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:441)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:247)
+	at reactor.netty.channel.FluxReceive.lambda$request$1(FluxReceive.java:135)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-02-01 10:54:32 [reactor-http-nio-5] INFO  c.m.d.r.e.q.w.c.api.QueryController - Querying with text kafka
+2022-02-01 10:54:32 [reactor-http-nio-5] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 10:54:32 [reactor-http-nio-5] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+java.lang.IllegalStateException: block()/blockFirst()/blockLast() are blocking, which is not supported in thread reactor-http-nio-5
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:83)
+	at reactor.core.publisher.Mono.block(Mono.java:1680)
+	at com.microservices.demo.reactive.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.test(TwitterElasticQueryWebClient.java:53)
+	at com.microservices.demo.reactive.elastic.query.web.client.api.QueryController.test(QueryController.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:147)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:173)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:92)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:147)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.ignoreDone(MonoIgnoreThen.java:190)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreInner.onComplete(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:292)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:81)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1783)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.signalCached(MonoCacheTime.java:320)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.onNext(MonoCacheTime.java:337)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:96)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1782)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:152)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:441)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:247)
+	at reactor.netty.channel.FluxReceive.lambda$request$1(FluxReceive.java:135)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-02-01 10:54:42 [reactor-http-nio-5] WARN  r.n.http.client.HttpClientConnect - [id: 0xbd81e14d, L:/127.0.0.1:59486 - R:localhost/127.0.0.1:8183] The connection observed an error
+io.netty.handler.timeout.ReadTimeoutException: null
+2022-02-01 11:09:52 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 11:09:53 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 11:09:54 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 11:09:54 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 11:09:54 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 11:09:55 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 11:09:56 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0d7acd50-47ba-485e-a72a-252aee1a9fb5
+
+2022-02-01 11:09:58 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 11:09:59 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.251 seconds (JVM running for 7.859)
+2022-02-01 11:10:18 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 11:10:18 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 11:10:23 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 11:10:23 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 11:10:26 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 11:10:26 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 11:11:35 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 11:11:35 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 11:11:39 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 11:11:39 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 11:51:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 11:51:44 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 11:51:44 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 11:51:44 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 11:51:44 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 11:51:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 11:51:46 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 14c22aba-96c7-4a93-acca-c1e088a79ad5
+
+2022-02-01 11:51:48 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 11:51:49 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.218 seconds (JVM running for 7.793)
+2022-02-01 11:52:40 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 11:52:40 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 11:56:09 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text java
+2022-02-01 11:56:09 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text java
+2022-02-01 11:57:48 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:01:53 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:03:25 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:30:11 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:30:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 12:30:16 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 12:30:18 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 12:30:18 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 12:30:18 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 12:30:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 12:30:19 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 722567e4-34ed-46ec-9096-db0e008006fa
+
+2022-02-01 12:30:21 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 12:30:22 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.61 seconds (JVM running for 8.161)
+2022-02-01 12:30:40 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:30:40 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:30:43 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text java
+2022-02-01 12:30:43 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text java
+2022-02-01 12:30:46 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:30:46 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:34:12 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 12:34:13 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 12:34:14 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 12:34:14 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 12:34:14 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 12:34:15 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 12:34:15 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e51f6051-8d5a-4911-bf3e-ab6d1203efab
+
+2022-02-01 12:34:18 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 12:34:19 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.3 seconds (JVM running for 7.899)
+2022-02-01 12:34:37 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:34:37 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:34:40 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:34:40 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:35:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 12:35:22 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 12:35:24 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 12:35:24 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 12:35:24 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 12:35:24 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 12:35:25 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: defbeff8-ff4d-463a-86ab-2ae8ba13e95b
+
+2022-02-01 12:35:28 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 12:35:28 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 8.773 seconds (JVM running for 9.3)
+2022-02-01 12:35:43 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:35:43 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:35:46 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:35:46 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:35:49 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:35:49 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:35:51 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 12:35:51 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 12:35:54 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text java
+2022-02-01 12:35:54 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text java
+2022-02-01 15:26:35 [reactor-http-nio-4] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 15:26:35 [reactor-http-nio-4] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 18:29:08 [reactor-http-nio-6] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 18:29:08 [reactor-http-nio-6] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 18:45:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 18:45:01 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 18:45:03 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 18:45:03 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 18:45:03 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 18:45:03 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 18:45:04 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b3153d72-4507-4350-8920-99ae495f00b1
+
+2022-02-01 18:45:06 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 18:45:07 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.497 seconds (JVM running for 7.939)
+2022-02-01 18:45:26 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 18:45:26 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 18:45:37 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 18:45:37 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 18:46:12 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 18:46:13 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 18:46:14 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 18:46:14 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 18:46:14 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 18:46:14 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 18:46:15 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9f0efbea-3aa1-432f-9abd-e7f9910e7ed6
+
+2022-02-01 18:46:18 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 18:46:19 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.404 seconds (JVM running for 7.958)
+2022-02-01 18:47:22 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 18:49:52 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 18:50:02 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 18:51:46 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 18:59:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 18:59:18 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 18:59:19 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 18:59:19 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 18:59:19 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 18:59:20 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 18:59:21 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 939e0f77-5660-4b23-9b69-adbed879bac0
+
+2022-02-01 18:59:23 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 18:59:24 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.34 seconds (JVM running for 7.885)
+2022-02-01 18:59:54 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2022-02-01 18:59:54 [reactor-http-nio-2] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for text kafka
+2022-02-01 19:27:13 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 19:27:15 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 19:27:15 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 19:27:15 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 19:27:15 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 19:27:16 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 19:27:17 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 73991c92-c7ff-41c5-a12d-a744de0ae518
+
+2022-02-01 19:27:19 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 19:27:20 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.605 seconds (JVM running for 8.201)
+2022-02-01 19:33:50 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-01 19:33:50 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-01 19:35:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 19:35:58 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 19:35:59 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 19:35:59 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 19:35:59 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 19:36:00 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 19:36:00 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ed8ac1d8-6fc7-4305-9e87-a06be8b7f98b
+
+2022-02-01 19:36:03 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 19:36:04 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.911 seconds (JVM running for 8.556)
+2022-02-01 19:36:30 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-01 19:36:34 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-01 19:37:03 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-01 19:38:16 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-01 19:50:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 19:50:20 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 19:50:21 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 19:50:21 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 19:50:21 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 19:50:21 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 19:50:22 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b669a82f-dafc-47b4-90f9-8d02b543dde7
+
+2022-02-01 19:50:24 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 19:50:25 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.418 seconds (JVM running for 7.879)
+2022-02-01 19:50:39 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-01 19:50:39 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-01 20:15:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 20:15:23 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 20:15:24 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 20:15:24 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 20:15:24 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 20:15:24 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 20:15:25 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2fb1856e-ab52-425a-acd9-2f47fb2b3f43
+
+2022-02-01 20:15:27 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 20:15:28 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.002 seconds (JVM running for 7.449)
+2022-02-01 20:15:57 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-01 20:15:57 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-01 20:16:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 20:16:40 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 20:16:40 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 20:16:40 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 20:16:40 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 20:16:41 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 20:16:42 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0045cd55-6159-4432-88c0-80f5af0305fe
+
+2022-02-01 20:16:44 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 20:16:45 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.003 seconds (JVM running for 7.454)
+2022-02-01 20:16:51 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-01 20:16:51 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-01 20:17:38 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-01 20:17:39 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-01 20:17:40 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=025943cd3c7176ee732496c7dc226cd90dec04e6, state=null
+2022-02-01 20:17:40 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-01 20:17:40 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-01 20:17:41 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-01 20:17:41 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 606ee0a0-1000-4b48-8183-9d83bce0a2d5
+
+2022-02-01 20:17:44 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-01 20:17:45 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.054 seconds (JVM running for 7.502)
+2022-02-01 20:17:55 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-01 20:17:55 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data

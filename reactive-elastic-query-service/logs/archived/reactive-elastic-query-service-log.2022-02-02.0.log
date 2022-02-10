@@ -1,0 +1,50 @@
+2022-02-02 09:32:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-02 09:32:15 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-02 09:32:16 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-service,config-client, profiles=[reactive_elastic_query], label=null, version=c411fe9d15882e44cdc8770c39832fc41eebe5a1, state=null
+2022-02-02 09:32:16 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-02 09:32:16 [main] INFO  c.m.d.r.e.q.s.ReactiveElasticQueryServiceApplication - The following profiles are active: reactive_elastic_query
+2022-02-02 09:32:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-02-02 09:32:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 137ms. Found 0 Elasticsearch repository interfaces.
+2022-02-02 09:32:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-02-02 09:32:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 1 Reactive Elasticsearch repository interfaces.
+2022-02-02 09:32:17 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d39f8dcc-aa69-3315-8955-73ec0ec47085
+2022-02-02 09:32:18 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 09:32:18 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 09:32:18 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 09:32:18 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 09:32:19 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1b5d26e9-dcb4-4876-8783-6e6be353ac4e
+
+2022-02-02 09:32:19 [reactor-http-nio-1] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2022-02-02 09:32:19 [reactor-http-nio-1] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.6.2
+2022-02-02 09:32:19 [reactor-http-nio-1] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2022-02-02 09:32:19 [reactor-http-nio-1] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.6.2 - 7.9.1
+2022-02-02 09:32:19 [reactor-http-nio-1] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2022-02-02 09:32:21 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8183
+2022-02-02 09:32:22 [main] INFO  c.m.d.r.e.q.s.ReactiveElasticQueryServiceApplication - Started ReactiveElasticQueryServiceApplication in 9.179 seconds (JVM running for 9.7)
+2022-02-02 09:39:36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-02 09:39:37 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-02 09:39:38 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-service,config-client, profiles=[reactive_elastic_query], label=null, version=c411fe9d15882e44cdc8770c39832fc41eebe5a1, state=null
+2022-02-02 09:39:38 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-02 09:39:38 [main] INFO  c.m.d.r.e.q.s.ReactiveElasticQueryServiceApplication - The following profiles are active: reactive_elastic_query
+2022-02-02 09:39:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-02-02 09:39:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116ms. Found 0 Elasticsearch repository interfaces.
+2022-02-02 09:39:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-02-02 09:39:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 1 Reactive Elasticsearch repository interfaces.
+2022-02-02 09:39:39 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d39f8dcc-aa69-3315-8955-73ec0ec47085
+2022-02-02 09:39:39 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 09:39:39 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 09:39:39 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 09:39:39 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-02 09:39:40 [reactor-http-nio-1] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2022-02-02 09:39:40 [reactor-http-nio-1] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.6.2
+2022-02-02 09:39:40 [reactor-http-nio-1] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2022-02-02 09:39:40 [reactor-http-nio-1] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.6.2 - 7.9.1
+2022-02-02 09:39:40 [reactor-http-nio-1] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2022-02-02 09:39:41 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a82ffa41-eaa8-427d-8949-cb1230fac653
+
+2022-02-02 09:39:43 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8183
+2022-02-02 09:39:44 [main] INFO  c.m.d.r.e.q.s.ReactiveElasticQueryServiceApplication - Started ReactiveElasticQueryServiceApplication in 8.31 seconds (JVM running for 8.998)

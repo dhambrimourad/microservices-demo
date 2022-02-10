@@ -24,3 +24,9 @@ spring:
       max-chunk-size: 8192
   codec:
     max-in-memory-size: 25MB
+
+logging:
+  level:
+    org.springframework: DEBUG
+    reactor.netty.http.client.HttpClient: DEBUG
+    org.springframework.boot.autoconfigure: DEBUG

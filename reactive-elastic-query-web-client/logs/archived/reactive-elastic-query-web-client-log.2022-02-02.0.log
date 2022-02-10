@@ -1,0 +1,32 @@
+2022-02-02 09:32:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-02 09:32:46 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-02 09:32:47 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=c411fe9d15882e44cdc8770c39832fc41eebe5a1, state=null
+2022-02-02 09:32:47 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-02 09:32:47 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-02 09:32:47 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-02 09:32:48 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9240d261-f770-4eb4-a884-e6226932ac60
+
+2022-02-02 09:32:50 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-02 09:32:51 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.143 seconds (JVM running for 7.626)
+2022-02-02 09:34:20 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-02 09:34:20 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-02 09:34:49 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-02 09:34:49 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-02 09:39:24 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-02-02 09:39:25 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-02-02 09:39:26 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=reactive-elastic-query-web-client,config-client, profiles=[reactive_elastic_query_web], label=null, version=c411fe9d15882e44cdc8770c39832fc41eebe5a1, state=null
+2022-02-02 09:39:26 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client-reactive_elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/dhambrimourad/spring-cloud-config-repository.git/config-client.yml'}]
+2022-02-02 09:39:26 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - The following profiles are active: reactive_elastic_query_web
+2022-02-02 09:39:27 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=db64c053-e35d-361d-bd1b-893ea5d70704
+2022-02-02 09:39:28 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5e7b8c21-c2cd-406e-b1dc-4d44d3457a09
+
+2022-02-02 09:39:30 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8184
+2022-02-02 09:39:31 [main] INFO  c.m.d.r.e.q.w.c.ReactiveElasticQueryWebClientApplication - Started ReactiveElasticQueryWebClientApplication in 7.592 seconds (JVM running for 8.642)
+2022-02-02 09:40:11 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-02 09:40:11 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
+2022-02-02 09:40:23 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying all data
+2022-02-02 09:40:23 [boundedElastic-1] INFO  c.m.d.r.e.q.w.c.api.QueryController - Returning from reactive client controller for all data
