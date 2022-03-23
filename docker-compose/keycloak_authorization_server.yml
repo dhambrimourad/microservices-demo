@@ -4,19 +4,21 @@ services:
     image: quay.io/keycloak/keycloak:${KEYCLOAK_VERSION:-latest}
     hostname: keycloak-server
     ports:
-      - "8081:8081"
+      - "9091:9091"
     depends_on:
       - postgres-database
     environment:
       - "KEYCLOAK_USER=admin"
       - "KEYCLOAK_PASSWORD=admin"
-      - "JAVA_OPTS=-Djboss.http.port=8081"
+      - "JAVA_OPTS=-Djboss.http.port=9091"
       - "DB_VENDOR=POSTGRES"
       - "DB_ADDR=postgres-database"
       - "DB_DATABASE=keycloak"
       - "DB_USER=keycloak"
       - "DB_SCHEMA=keycloak"
       - "DB_PASSWORD=keycloak"
+    networks:
+      - ${GLOBAL_NETWORK:-services}
   postgres-database:
     image: "postgres"
     ports:
@@ -27,6 +29,8 @@ services:
       - "POSTGRES_DB=keycloak"
     volumes:
       - database-data:/var/lib/postgresql/data/
+    networks:
+      - ${GLOBAL_NETWORK:-services}
   pgadmin:
     image: "dpage/pgadmin4"
     ports:
@@ -34,5 +38,7 @@ services:
     environment:
       - "PGADMIN_DEFAULT_EMAIL=user@domain.com"
       - "PGADMIN_DEFAULT_PASSWORD=password"
+    networks:
+      - ${GLOBAL_NETWORK:-services}
 volumes:
   database-data:

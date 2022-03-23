@@ -31,6 +31,7 @@
     <module>reactive-elastic-query-service</module>
     <module>reactive-elastic-query-web-client</module>
     <module>elastic-query-web-client-2</module>
+    <module>kafka-streams-service</module>
   </modules>
 
 	<properties>
@@ -42,12 +43,15 @@
 		<spring-retry.version>1.3.0</spring-retry.version>
 		<twitter4j.version>4.0.7</twitter4j.version>
 		<lombok.version>1.18.16</lombok.version>
-		<avro.version>1.10.0</avro.version>
-		<kafka-avro-serializer.version>5.5.1</kafka-avro-serializer.version>
 		<spring-cloud-dependencies.version>Hoxton.SR9</spring-cloud-dependencies.version>
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 		<elastic.version>7.9.1</elastic.version>
 		<springdoc-openapi.version>1.5.0</springdoc-openapi.version>
+		<kafka-streams.version>2.6.0</kafka-streams.version>
+		<kafka-clients.version>2.6.0</kafka-clients.version>
+		<kafka-avro-serializer.version>5.5.1</kafka-avro-serializer.version>
+		<kafka-streams-avro-serde.version>5.5.1</kafka-streams-avro-serde.version>
+		<avro.version>1.10.0</avro.version>
 	</properties>
 
 	<repositories>
@@ -235,6 +239,24 @@
 						<artifactId>swagger-core</artifactId>
 					</exclusion>
 				</exclusions>
+			</dependency>
+
+			<dependency>
+				<groupId>io.confluent</groupId>
+				<artifactId>kafka-streams-avro-serde</artifactId>
+				<version>${kafka-streams-avro-serde.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.kafka</groupId>
+				<artifactId>kafka-streams</artifactId>
+				<version>${kafka-streams.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.kafka</groupId>
+				<artifactId>kafka-clients</artifactId>
+				<version>${kafka-clients.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
