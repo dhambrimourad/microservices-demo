@@ -42,7 +42,7 @@ spring:
             scope: openid
         provider:
           keycloak:
-            issuer-uri: http://localhost:8081/auth/realms/microservices-realm
+            issuer-uri: http://localhost:9091/auth/realms/microservices-realm
 
 security:
   logout-success-url: 'http://localhost:8184/elastic-query-web-client'

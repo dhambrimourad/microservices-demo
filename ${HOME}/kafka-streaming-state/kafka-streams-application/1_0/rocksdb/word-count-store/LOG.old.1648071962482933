@@ -1,0 +1,292 @@
+2022/03/23-17:44:24.952899 5d5c RocksDB version: 5.18.4
+2022/03/23-17:44:24.952939 5d5c Git sha rocksdb_build_git_sha:@b9a4a10659969c71e6f6eab4e4bae8c36ede919f@
+2022/03/23-17:44:24.952955 5d5c Compile date Mar 11 2020
+2022/03/23-17:44:24.952968 5d5c DB SUMMARY
+2022/03/23-17:44:24.953043 5d5c CURRENT file:  CURRENT
+2022/03/23-17:44:24.953057 5d5c IDENTITY file:  IDENTITY
+2022/03/23-17:44:24.953077 5d5c MANIFEST file:  MANIFEST-000001 size: 13 Bytes
+2022/03/23-17:44:24.953088 5d5c SST files in F:\dev\java\microservices-demo\${HOME}\kafka-streaming-state\kafka-streams-application\1_0\rocksdb\word-count-store dir, Total Num: 0, files: 
+2022/03/23-17:44:24.953103 5d5c Write Ahead Log file in F:\dev\java\microservices-demo\${HOME}\kafka-streaming-state\kafka-streams-application\1_0\rocksdb\word-count-store: 000003.log size: 0 ; 
+2022/03/23-17:44:24.953327 5d5c                         Options.error_if_exists: 0
+2022/03/23-17:44:24.953333 5d5c                       Options.create_if_missing: 1
+2022/03/23-17:44:24.953336 5d5c                         Options.paranoid_checks: 1
+2022/03/23-17:44:24.953339 5d5c                                     Options.env: 00000275E9391180
+2022/03/23-17:44:24.953343 5d5c                                Options.info_log: 00000275E0AE1A90
+2022/03/23-17:44:24.953346 5d5c                Options.max_file_opening_threads: 16
+2022/03/23-17:44:24.953350 5d5c                              Options.statistics: 0000000000000000
+2022/03/23-17:44:24.953353 5d5c                               Options.use_fsync: 0
+2022/03/23-17:44:24.953356 5d5c                       Options.max_log_file_size: 0
+2022/03/23-17:44:24.953359 5d5c                  Options.max_manifest_file_size: 1073741824
+2022/03/23-17:44:24.953363 5d5c                   Options.log_file_time_to_roll: 0
+2022/03/23-17:44:24.953366 5d5c                       Options.keep_log_file_num: 1000
+2022/03/23-17:44:24.953369 5d5c                    Options.recycle_log_file_num: 0
+2022/03/23-17:44:24.953373 5d5c                         Options.allow_fallocate: 1
+2022/03/23-17:44:24.953376 5d5c                        Options.allow_mmap_reads: 0
+2022/03/23-17:44:24.953379 5d5c                       Options.allow_mmap_writes: 0
+2022/03/23-17:44:24.953382 5d5c                        Options.use_direct_reads: 0
+2022/03/23-17:44:24.953385 5d5c                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/03/23-17:44:24.953389 5d5c          Options.create_missing_column_families: 0
+2022/03/23-17:44:24.953392 5d5c                              Options.db_log_dir: 
+2022/03/23-17:44:24.953395 5d5c                                 Options.wal_dir: F:\dev\java\microservices-demo\${HOME}\kafka-streaming-state\kafka-streams-application\1_0\rocksdb\word-count-store
+2022/03/23-17:44:24.953398 5d5c                Options.table_cache_numshardbits: 6
+2022/03/23-17:44:24.953402 5d5c                      Options.max_subcompactions: 1
+2022/03/23-17:44:24.953405 5d5c                  Options.max_background_flushes: -1
+2022/03/23-17:44:24.953408 5d5c                         Options.WAL_ttl_seconds: 0
+2022/03/23-17:44:24.953411 5d5c                       Options.WAL_size_limit_MB: 0
+2022/03/23-17:44:24.953415 5d5c             Options.manifest_preallocation_size: 4194304
+2022/03/23-17:44:24.953418 5d5c                     Options.is_fd_close_on_exec: 1
+2022/03/23-17:44:24.953421 5d5c                   Options.advise_random_on_open: 1
+2022/03/23-17:44:24.953424 5d5c                    Options.db_write_buffer_size: 0
+2022/03/23-17:44:24.953429 5d5c                    Options.write_buffer_manager: 00000275E0A225D0
+2022/03/23-17:44:24.953432 5d5c         Options.access_hint_on_compaction_start: 1
+2022/03/23-17:44:24.953435 5d5c  Options.new_table_reader_for_compaction_inputs: 0
+2022/03/23-17:44:24.953438 5d5c           Options.random_access_max_buffer_size: 1048576
+2022/03/23-17:44:24.953442 5d5c                      Options.use_adaptive_mutex: 0
+2022/03/23-17:44:24.953445 5d5c                            Options.rate_limiter: 0000000000000000
+2022/03/23-17:44:24.953448 5d5c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/03/23-17:44:24.953470 5d5c                       Options.wal_recovery_mode: 2
+2022/03/23-17:44:24.953475 5d5c                  Options.enable_thread_tracking: 0
+2022/03/23-17:44:24.953479 5d5c                  Options.enable_pipelined_write: 0
+2022/03/23-17:44:24.953482 5d5c         Options.allow_concurrent_memtable_write: 1
+2022/03/23-17:44:24.953485 5d5c      Options.enable_write_thread_adaptive_yield: 1
+2022/03/23-17:44:24.953488 5d5c             Options.write_thread_max_yield_usec: 100
+2022/03/23-17:44:24.953492 5d5c            Options.write_thread_slow_yield_usec: 3
+2022/03/23-17:44:24.953496 5d5c                               Options.row_cache: None
+2022/03/23-17:44:24.953499 5d5c                              Options.wal_filter: None
+2022/03/23-17:44:24.953503 5d5c             Options.avoid_flush_during_recovery: 0
+2022/03/23-17:44:24.953506 5d5c             Options.allow_ingest_behind: 0
+2022/03/23-17:44:24.953509 5d5c             Options.preserve_deletes: 0
+2022/03/23-17:44:24.953513 5d5c             Options.two_write_queues: 0
+2022/03/23-17:44:24.953517 5d5c             Options.manual_wal_flush: 0
+2022/03/23-17:44:24.953520 5d5c             Options.max_background_jobs: 16
+2022/03/23-17:44:24.953523 5d5c             Options.max_background_compactions: -1
+2022/03/23-17:44:24.953526 5d5c             Options.avoid_flush_during_shutdown: 0
+2022/03/23-17:44:24.953530 5d5c           Options.writable_file_max_buffer_size: 1048576
+2022/03/23-17:44:24.953533 5d5c             Options.delayed_write_rate : 16777216
+2022/03/23-17:44:24.953536 5d5c             Options.max_total_wal_size: 0
+2022/03/23-17:44:24.953539 5d5c             Options.delete_obsolete_files_period_micros: 21600000000
+2022/03/23-17:44:24.953543 5d5c                   Options.stats_dump_period_sec: 600
+2022/03/23-17:44:24.953546 5d5c                          Options.max_open_files: -1
+2022/03/23-17:44:24.953549 5d5c                          Options.bytes_per_sync: 0
+2022/03/23-17:44:24.953552 5d5c                      Options.wal_bytes_per_sync: 0
+2022/03/23-17:44:24.953555 5d5c       Options.compaction_readahead_size: 0
+2022/03/23-17:44:24.953559 5d5c Compression algorithms supported:
+2022/03/23-17:44:24.953562 5d5c 	kZSTD supported: 1
+2022/03/23-17:44:24.953566 5d5c 	kSnappyCompression supported: 1
+2022/03/23-17:44:24.953569 5d5c 	kBZip2Compression supported: 0
+2022/03/23-17:44:24.953573 5d5c 	kZlibCompression supported: 1
+2022/03/23-17:44:24.953576 5d5c 	kLZ4Compression supported: 1
+2022/03/23-17:44:24.953579 5d5c 	kXpressCompression supported: 0
+2022/03/23-17:44:24.953582 5d5c 	kLZ4HCCompression supported: 1
+2022/03/23-17:44:24.953585 5d5c 	kZSTDNotFinalCompression supported: 1
+2022/03/23-17:44:24.953592 5d5c Fast CRC32 supported: Supported on x86
+2022/03/23-17:44:24.953834 5d5c               Options.comparator: leveldb.BytewiseComparator
+2022/03/23-17:44:24.953841 5d5c           Options.merge_operator: None
+2022/03/23-17:44:24.953844 5d5c        Options.compaction_filter: None
+2022/03/23-17:44:24.953847 5d5c        Options.compaction_filter_factory: None
+2022/03/23-17:44:24.953851 5d5c         Options.memtable_factory: SkipListFactory
+2022/03/23-17:44:24.953854 5d5c            Options.table_factory: BlockBasedTable
+2022/03/23-17:44:24.953873 5d5c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000275EB9FF750)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000275E310B120
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 52428800
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+  block_align: 0
+2022/03/23-17:44:24.953901 5d5c        Options.write_buffer_size: 16777216
+2022/03/23-17:44:24.953906 5d5c  Options.max_write_buffer_number: 3
+2022/03/23-17:44:24.953909 5d5c          Options.compression: NoCompression
+2022/03/23-17:44:24.953913 5d5c                  Options.bottommost_compression: Disabled
+2022/03/23-17:44:24.953916 5d5c       Options.prefix_extractor: nullptr
+2022/03/23-17:44:24.953919 5d5c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/03/23-17:44:24.953923 5d5c             Options.num_levels: 7
+2022/03/23-17:44:24.953926 5d5c        Options.min_write_buffer_number_to_merge: 1
+2022/03/23-17:44:24.953929 5d5c     Options.max_write_buffer_number_to_maintain: 0
+2022/03/23-17:44:24.953932 5d5c            Options.bottommost_compression_opts.window_bits: -14
+2022/03/23-17:44:24.953936 5d5c                  Options.bottommost_compression_opts.level: 32767
+2022/03/23-17:44:24.953939 5d5c               Options.bottommost_compression_opts.strategy: 0
+2022/03/23-17:44:24.953942 5d5c         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/03/23-17:44:24.953946 5d5c         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/03/23-17:44:24.953949 5d5c                  Options.bottommost_compression_opts.enabled: false
+2022/03/23-17:44:24.953952 5d5c            Options.compression_opts.window_bits: -14
+2022/03/23-17:44:24.953955 5d5c                  Options.compression_opts.level: 32767
+2022/03/23-17:44:24.953959 5d5c               Options.compression_opts.strategy: 0
+2022/03/23-17:44:24.953962 5d5c         Options.compression_opts.max_dict_bytes: 0
+2022/03/23-17:44:24.953965 5d5c         Options.compression_opts.zstd_max_train_bytes: 0
+2022/03/23-17:44:24.953968 5d5c                  Options.compression_opts.enabled: false
+2022/03/23-17:44:24.953972 5d5c      Options.level0_file_num_compaction_trigger: 4
+2022/03/23-17:44:24.953977 5d5c          Options.level0_slowdown_writes_trigger: 20
+2022/03/23-17:44:24.953984 5d5c              Options.level0_stop_writes_trigger: 36
+2022/03/23-17:44:24.953988 5d5c                   Options.target_file_size_base: 67108864
+2022/03/23-17:44:24.953991 5d5c             Options.target_file_size_multiplier: 1
+2022/03/23-17:44:24.953994 5d5c                Options.max_bytes_for_level_base: 268435456
+2022/03/23-17:44:24.953998 5d5c Options.level_compaction_dynamic_level_bytes: 0
+2022/03/23-17:44:24.954001 5d5c          Options.max_bytes_for_level_multiplier: 10.000000
+2022/03/23-17:44:24.954006 5d5c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/03/23-17:44:24.954010 5d5c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/03/23-17:44:24.954013 5d5c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/03/23-17:44:24.954017 5d5c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/03/23-17:44:24.954020 5d5c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/03/23-17:44:24.954023 5d5c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/03/23-17:44:24.954026 5d5c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/03/23-17:44:24.954030 5d5c       Options.max_sequential_skip_in_iterations: 8
+2022/03/23-17:44:24.954033 5d5c                    Options.max_compaction_bytes: 1677721600
+2022/03/23-17:44:24.954036 5d5c                        Options.arena_block_size: 2097152
+2022/03/23-17:44:24.954039 5d5c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/03/23-17:44:24.954045 5d5c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/03/23-17:44:24.954049 5d5c       Options.rate_limit_delay_max_milliseconds: 100
+2022/03/23-17:44:24.954052 5d5c                Options.disable_auto_compactions: 0
+2022/03/23-17:44:24.954057 5d5c                        Options.compaction_style: kCompactionStyleUniversal
+2022/03/23-17:44:24.954061 5d5c                          Options.compaction_pri: kByCompensatedSize
+2022/03/23-17:44:24.954067 5d5c Options.compaction_options_universal.size_ratio: 1
+2022/03/23-17:44:24.954072 5d5c Options.compaction_options_universal.min_merge_width: 2
+2022/03/23-17:44:24.954075 5d5c Options.compaction_options_universal.max_merge_width: 4294967295
+2022/03/23-17:44:24.954079 5d5c Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/03/23-17:44:24.954083 5d5c Options.compaction_options_universal.compression_size_percent: -1
+2022/03/23-17:44:24.954088 5d5c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/03/23-17:44:24.954092 5d5c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/03/23-17:44:24.954095 5d5c Options.compaction_options_fifo.allow_compaction: 0
+2022/03/23-17:44:24.954098 5d5c Options.compaction_options_fifo.ttl: 0
+2022/03/23-17:44:24.954101 5d5c                   Options.table_properties_collectors: 
+2022/03/23-17:44:24.954105 5d5c                   Options.inplace_update_support: 0
+2022/03/23-17:44:24.954108 5d5c                 Options.inplace_update_num_locks: 10000
+2022/03/23-17:44:24.954111 5d5c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/03/23-17:44:24.954115 5d5c   Options.memtable_huge_page_size: 0
+2022/03/23-17:44:24.954118 5d5c                           Options.bloom_locality: 0
+2022/03/23-17:44:24.954121 5d5c                    Options.max_successive_merges: 0
+2022/03/23-17:44:24.954125 5d5c                Options.optimize_filters_for_hits: 0
+2022/03/23-17:44:24.954128 5d5c                Options.paranoid_file_checks: 0
+2022/03/23-17:44:24.954131 5d5c                Options.force_consistency_checks: 0
+2022/03/23-17:44:24.954134 5d5c                Options.report_bg_io_stats: 0
+2022/03/23-17:44:24.954138 5d5c                               Options.ttl: 0
+2022/03/23-17:44:25.182355 5d5c               Options.comparator: leveldb.BytewiseComparator
+2022/03/23-17:44:25.182386 5d5c           Options.merge_operator: None
+2022/03/23-17:44:25.182390 5d5c        Options.compaction_filter: None
+2022/03/23-17:44:25.182393 5d5c        Options.compaction_filter_factory: None
+2022/03/23-17:44:25.182396 5d5c         Options.memtable_factory: SkipListFactory
+2022/03/23-17:44:25.182400 5d5c            Options.table_factory: BlockBasedTable
+2022/03/23-17:44:25.182434 5d5c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000275EB9FF750)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000275E310B120
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 52428800
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+  block_align: 0
+2022/03/23-17:44:25.182439 5d5c        Options.write_buffer_size: 16777216
+2022/03/23-17:44:25.182442 5d5c  Options.max_write_buffer_number: 3
+2022/03/23-17:44:25.182446 5d5c          Options.compression: NoCompression
+2022/03/23-17:44:25.182449 5d5c                  Options.bottommost_compression: Disabled
+2022/03/23-17:44:25.182452 5d5c       Options.prefix_extractor: nullptr
+2022/03/23-17:44:25.182455 5d5c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/03/23-17:44:25.182458 5d5c             Options.num_levels: 7
+2022/03/23-17:44:25.182462 5d5c        Options.min_write_buffer_number_to_merge: 1
+2022/03/23-17:44:25.182465 5d5c     Options.max_write_buffer_number_to_maintain: 0
+2022/03/23-17:44:25.182524 5d5c            Options.bottommost_compression_opts.window_bits: -14
+2022/03/23-17:44:25.182530 5d5c                  Options.bottommost_compression_opts.level: 32767
+2022/03/23-17:44:25.182533 5d5c               Options.bottommost_compression_opts.strategy: 0
+2022/03/23-17:44:25.182536 5d5c         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/03/23-17:44:25.182540 5d5c         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/03/23-17:44:25.182543 5d5c                  Options.bottommost_compression_opts.enabled: false
+2022/03/23-17:44:25.182546 5d5c            Options.compression_opts.window_bits: -14
+2022/03/23-17:44:25.182550 5d5c                  Options.compression_opts.level: 32767
+2022/03/23-17:44:25.182553 5d5c               Options.compression_opts.strategy: 0
+2022/03/23-17:44:25.182556 5d5c         Options.compression_opts.max_dict_bytes: 0
+2022/03/23-17:44:25.182559 5d5c         Options.compression_opts.zstd_max_train_bytes: 0
+2022/03/23-17:44:25.182563 5d5c                  Options.compression_opts.enabled: false
+2022/03/23-17:44:25.182566 5d5c      Options.level0_file_num_compaction_trigger: 4
+2022/03/23-17:44:25.182569 5d5c          Options.level0_slowdown_writes_trigger: 20
+2022/03/23-17:44:25.182572 5d5c              Options.level0_stop_writes_trigger: 36
+2022/03/23-17:44:25.182575 5d5c                   Options.target_file_size_base: 67108864
+2022/03/23-17:44:25.182579 5d5c             Options.target_file_size_multiplier: 1
+2022/03/23-17:44:25.182582 5d5c                Options.max_bytes_for_level_base: 268435456
+2022/03/23-17:44:25.182585 5d5c Options.level_compaction_dynamic_level_bytes: 0
+2022/03/23-17:44:25.182588 5d5c          Options.max_bytes_for_level_multiplier: 10.000000
+2022/03/23-17:44:25.182594 5d5c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/03/23-17:44:25.182599 5d5c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/03/23-17:44:25.182607 5d5c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/03/23-17:44:25.182610 5d5c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/03/23-17:44:25.182614 5d5c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/03/23-17:44:25.182617 5d5c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/03/23-17:44:25.182620 5d5c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/03/23-17:44:25.182623 5d5c       Options.max_sequential_skip_in_iterations: 8
+2022/03/23-17:44:25.182627 5d5c                    Options.max_compaction_bytes: 1677721600
+2022/03/23-17:44:25.182630 5d5c                        Options.arena_block_size: 2097152
+2022/03/23-17:44:25.182633 5d5c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/03/23-17:44:25.182636 5d5c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/03/23-17:44:25.182640 5d5c       Options.rate_limit_delay_max_milliseconds: 100
+2022/03/23-17:44:25.182643 5d5c                Options.disable_auto_compactions: 0
+2022/03/23-17:44:25.182647 5d5c                        Options.compaction_style: kCompactionStyleUniversal
+2022/03/23-17:44:25.182651 5d5c                          Options.compaction_pri: kByCompensatedSize
+2022/03/23-17:44:25.182654 5d5c Options.compaction_options_universal.size_ratio: 1
+2022/03/23-17:44:25.182658 5d5c Options.compaction_options_universal.min_merge_width: 2
+2022/03/23-17:44:25.182661 5d5c Options.compaction_options_universal.max_merge_width: 4294967295
+2022/03/23-17:44:25.182664 5d5c Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/03/23-17:44:25.182667 5d5c Options.compaction_options_universal.compression_size_percent: -1
+2022/03/23-17:44:25.182671 5d5c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/03/23-17:44:25.182674 5d5c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/03/23-17:44:25.182678 5d5c Options.compaction_options_fifo.allow_compaction: 0
+2022/03/23-17:44:25.182681 5d5c Options.compaction_options_fifo.ttl: 0
+2022/03/23-17:44:25.182684 5d5c                   Options.table_properties_collectors: 
+2022/03/23-17:44:25.182688 5d5c                   Options.inplace_update_support: 0
+2022/03/23-17:44:25.182693 5d5c                 Options.inplace_update_num_locks: 10000
+2022/03/23-17:44:25.182696 5d5c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/03/23-17:44:25.182700 5d5c   Options.memtable_huge_page_size: 0
+2022/03/23-17:44:25.182703 5d5c                           Options.bloom_locality: 0
+2022/03/23-17:44:25.182706 5d5c                    Options.max_successive_merges: 0
+2022/03/23-17:44:25.182709 5d5c                Options.optimize_filters_for_hits: 0
+2022/03/23-17:44:25.182713 5d5c                Options.paranoid_file_checks: 0
+2022/03/23-17:44:25.182716 5d5c                Options.force_consistency_checks: 0
+2022/03/23-17:44:25.182719 5d5c                Options.report_bg_io_stats: 0
+2022/03/23-17:44:25.182722 5d5c                               Options.ttl: 0
